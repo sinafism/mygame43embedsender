@@ -7,4 +7,4 @@
 ###
 
 <p data-importer="text" align="left">Script:</p>
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()```
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/sinafism/mygame43embedsender/refs/heads/main/source.luau"))()```
