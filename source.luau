@@ -74,9 +74,9 @@ local function SendEmbed(url, embed)
     end)
 
     if success then
-        print("Webhook enviado!")
+        print("Webhook sent!")
     else
-        warn("Erro ao enviar webhook:", result)
+        warn("Error sending webhook:", result)
     end
 end
 
@@ -88,7 +88,7 @@ local function GetInventoryFields()
     if type(inventoryData) ~= "table" then
         table.insert(inventoryFields, {
             name = "Inventory",
-            value = "Não foi possível carregar o inventário.",
+            value = "Unable to load the inventory.",
             inline = false
         })
 
@@ -119,7 +119,7 @@ local function GetInventoryFields()
         end
 
         if value == "" then
-            value = "Nenhum item."
+            value = "No items."
         end
 
         local lines = {}
@@ -199,7 +199,7 @@ local function EnviarStatus()
         fields = fields,
 
         footer = {
-            text = "Tempo Online: " .. MinutosOnline .. " minuto(s)"
+            text = "Online Time: " .. MinutosOnline .. " minute(s)"
         },
 
         timestamp = DateTime.now():ToIsoDate()
