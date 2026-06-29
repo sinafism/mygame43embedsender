@@ -6,7 +6,7 @@ local Remotes = ReplicatedStorage:WaitForChild("Remotes")
 local CommF_ = Remotes:WaitForChild("CommF_")
 
 local Player = Players.LocalPlayer
-local Url = "hook"
+--local Url = "hook"
 
 local Inicio = os.time()
 
