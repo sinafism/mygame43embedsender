@@ -12,6 +12,8 @@ Skidding allowed.</p>
 <!-- Separador ou comentário -->
 ###
 
+![brazil sinaf](https://i.ibb.co/wZGn1Wsy/sinafbrasil.png)
+
 <p data-importer="text" align="left">Sinafism on Top!</p>
 
 <!-- Separador ou comentário -->
