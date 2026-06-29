@@ -7,7 +7,7 @@ local CommF_ = Remotes:WaitForChild("CommF_")
 
 local Player = Players.LocalPlayer
 local Url = getgenv().Url
-local Delay = getgenv().Delay
+local Delay = getgenv().Delay or 300
 
 local Inicio = os.time()
 
