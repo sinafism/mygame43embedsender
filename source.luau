@@ -215,7 +215,7 @@ EnviarStatus()
 
 task.spawn(function()
     while true do
-        task.wait(300)
+        task.wait(Delay)
         EnviarStatus()
     end
 end)
