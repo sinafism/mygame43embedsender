@@ -96,7 +96,7 @@ local function GetInventoryFields()
     end
 
     for _, item in ipairs(inventoryData) do
-        local tipo = item.Type or "Desconhecido"
+        local tipo = item.Type or "Unknown"
 
         grouped[tipo] = grouped[tipo] or {}
         table.insert(grouped[tipo], item)
