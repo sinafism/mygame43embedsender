@@ -10,4 +10,4 @@
 
 <p data-importer="text" align="left">Script:</p>
 <pre><code>local url = "hook"
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/sinafism/mygame43embedsender/refs/heads/main/source.luau"))()</code></pre>
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinafism/mygame43embedsender/refs/heads/main/source.luau"))()</code></pre>
