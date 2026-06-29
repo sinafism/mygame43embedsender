@@ -10,4 +10,5 @@
 
 <p data-importer="text" align="left">Script:</p>
 <pre><code>getgenv().Url = "hook"
+getgenv().Delay = 300
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sinafism/mygame43embedsender/refs/heads/main/source.luau"))()</code></pre>
